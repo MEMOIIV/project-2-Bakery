@@ -13,77 +13,128 @@
         Beakery
     </title>
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
-    <div class="home">
-        <header>
-            <div class="navlogo">
-                <div class="logo"><img src="images/bakery-light-1.png" alt="logo">
+        <header class="home mb-5 d-flex justify-content-center align-items-center position-relative">
+            <div class="layer position-absolute w-100 h-100  ">
+                <nav class="navbar navbar-expand-lg position-fixed w-100 top-0 start-0  ">
+                    <div class="container-fluid d-flex nav-par m-auto ">
+                      <div class=" w-25 ps-5 "><a class="navbar-brand pt-2 m-auto" href="#"><img src="images/bakery-light-1.png" alt="logo"></a></div>
+                      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white"></span>
+                      </button>
+                      <div class="collapse navbar-collapse pt-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto  mb-2 mb-lg-0 me-4 text-capitalize">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="home" >Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="about">about</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="our-offer">our offer</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="gallery">gallery</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="blog">blog</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="contact">contact</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="home2 ">
+                <p class="wel maincurrBg">Welcome to</p>
+                <h1>Family Bakery</h1>
+                <p class="pra0">We're the biggest, best equipped and most advanced Bakery in the greater.
+                </p>
+                <p class="pra0">Los Angeles area.</p>
+                <button class="btn btn-danger1 me-2 maincurrBg"> Learn More</button>
+                <button class="btn btn-primary1">Contact Us </button>
+            </div>
 
-                    <a href="#">Home</a>
-
-
-                    <a href="#">About</a>
-
-
-                    <a href="#">Our Offer</a>
-
-                    <a href="#">Gallery</a>
-
-
-                    <a href="#">Blog</a>
-
-
-                    <a href="#">Contact</a>
-
+            <div class="boxNav position-fixed top-0 bottom-0 pt-5 pe-4 m-auto  bg-danger">
+             <div class="position-relative ps-4">
+                <div><button class="btn btn-1 text-capitalize">bye engage now!</button></div>
+                <div class="ps-2 pt-4">
+                    <p class="text-dark">Choose Accent Color :</p>
+                    <div class="coloringBox">
+                       <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                       </div>
+                      <div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                        <div>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="icon-body shadow position-absolute end-100  ">
+                            <div><i class="fa fa-cogs pb-3"></i></div>
+                            <div><i class="fa fa-shopping-cart"></i></div>
+                        </div>
+                    </div>
                 </div>
+                <div></div>
+             </div>
             </div>
         </header>
-        <div class="home2">
-            <p class="wel">Welcome to</p>
-            <h1 class="family">Family Bakery</h1>
-            <p class="pra0">We're the biggest, best equipped and most advanced Bakery in the greater.
-            </p>
-            <p class="pra0">Los Angeles area.</p>
-            <button class="butt butt1"> Learn More</button>
-            <button class="butt">Contact Us </button>
-        </div>
-
-    </div>
-    <br>
-    <br>
-    <div class="whowe">
-        <div class="container row">
-            <div class="containeroo col-lg-6">
-                <div class="pict1">
-                    <img src="images/alexandru-stavrica-170390-800x760.jpg" alt="bread">
-                </div>
-            </div>
-            <div class="conataineraa col-lg-6">
-                <div class="title1">
     
-                    <h2 class="H2">who we are?</h2>
+    <section class="whowe my-5 py-3">
+        <div class="container m-auto">
+            <div class="row">
+                <div class=" col-md-6 gx-0">
+                    <div class="pict1">
+                        <img src="images/alexandru-stavrica-170390-800x760.jpg" alt="bread">
+                    </div>
+                </div>
+                <div class="col-md-6 gy-5 gx-1">
+                    <div class="title1 text-start">
         
-                    <p class="p1">We have been operating for over 30 years and are Members of The Federation of</p>
-                    <p class="p1">Master Builders. We work on projects big and small from small residential extensions</p>
-                    <p class="p1">to full house. We are so happy with this theme. Everyday it make our lives better.</p>
-                    <p class="p2"><img src="images/leaf (1).png" alt="leaf" width="20px"> We care about environment.</p>
-                    <p class="p2"> <img src="images/group.png" alt="group" width="20px"> We are trusted by hundreds of clients.</p>
-                    <p class="p2"> <img src="images/heart.png" alt="hart" width="20px"> Social media loves us!</p>
-                    <p class="p2"><img src="images/check.png" alt="check" width="20px"> This list is super easy to create.</p>
+                        <h2 class="H2">who we are?</h2>
+            
+                        <div class="color-p">
+                            <p>We have been operating for over 30 years and are Members of The Federation of</p>
+                            <p>Master Builders. We work on projects big and small from small residential extensions</p>
+                            <p>to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+                        </div>
+                        <div class="py-2 color-p ">
+                            <div class="d-flex mb-2"><div class="me-3 icon-who d-flex justify-content-center align-items-center"><i class="fa-solid fa-leaf maincurrBg"></i></div> <p>We care about environment.</p></div>
+                            <div class="d-flex mb-2"><div class="me-3 icon-who d-flex justify-content-center align-items-center"><i class="fa-solid fa-users-line maincurrBg"></i></div><p>We are trusted by hundreds of clients.</p></div>
+                            <div class="d-flex mb-2"><div class="me-3 icon-who d-flex justify-content-center align-items-center"><i class="fa-solid fa-heart maincurrBg"></i></div><p>Social media loves us!</p></div>
+                            <div class="d-flex mb-2"><div class="me-3 icon-who d-flex justify-content-center align-items-center"><i class="fa-solid fa-check maincurrBg"></i></div><p>This list is super easy to create.</p></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <br>
-    <br>
-
-    <div class="OurLocation">
+    <section class="OurLocation my-5">
 
         <div class="title2">
             <h2 class="h222">Our Location</h2>
@@ -96,12 +147,9 @@
         </div>
         <img src="images/full-2-800x640.jpg" alt="bread">
 
-    </div>
+    </section>
 
-    <br>
-    <br>
-
-    <div class="OurBaking">
+    <section class="OurBaking">
         <div class="title3">
             <h2 class="h22">Our Baking</h2>
         </div>
@@ -109,9 +157,9 @@
             <p>Learn more about them. We have worked truly hard to make them perfect for every use.</p>
         </div>
 
-    </div>
+    </section>
 
-    <div class="meals">
+    <section class="meals">
 
         <div class="meal3">
             <img src="images/ben-garratt-134774-600x500.jpg" alt="Superior Breads">
@@ -132,42 +180,43 @@
                 velit. Phasellus commodo turpis et lacinia posuere.</p>
         </div>
 
-    </div>
+    </section>
 
-    <div class="ContactInformation">
-        <p class="title4">
-        <h2 class="cont">Contact Information</h2>
-        <p>
-            I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet</p>
-        <p>,consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar</p>
-        <p>dapibus leo.</p>
-        <br>
-        <p class="our">Our contact details:</p>
-        <br>
-        <p>
-           <img src="images/map.png" alt="map" width="20px"> Manchester St 123-78B, Random 713, UK
-        </p>
-        <br>
-        <p>
-           <img src="images/phone-call.png" alt="call" width="20px"> +46 123 456 789
-        </p>
-        <br>
-        <p>
-           <img src="images/headphone.png" alt="headphone" width="20px"> +37 431 456 789
-        </p>
-        <br>
-        <p>
-          <img src="images/email.png" alt="email" width="20px">  hello@sitename.com
-        </p>
-            <img class="lacation" alt="" src="images/dark.png" alt="lacation" width="100px">
-    </div>
-
-    </div>
+    <section class="ContactInformation my-5 py-5">
+        <div class="py-5">
+            <p class="title4">
+                <h2 class="cont">Contact Information</h2>
+                <p>
+                    I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet</p>
+                <p>,consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar</p>
+                <p>dapibus leo.</p>
+                
+                <p class="our">Our contact details:</p>
+        
+                <div>
+                   <img src="images/map.png" alt="map" width="20px"> Manchester St 123-78B, Random 713, UK
+                </div>
+                
+                <div>
+                   <img src="images/phone-call.png" alt="call" width="20px"> +46 123 456 789
+                </div>
+                
+                <div>
+                   <img src="images/headphone.png" alt="headphone" width="20px"> +37 431 456 789
+                </div>
+                
+                <div>
+                  <img src="images/email.png" alt="email" width="20px">  hello@sitename.com
+                </div>
+                    <img class="lacation" alt="" src="images/dark.png" alt="lacation" width="100px">
+        </div>
+    
+    </section>
 
     <div class="footer">
         <div class="footer1">
             <div class="footer2">
-                <div class="row">
+                <div class="row0">
                         <h4 class="aboutus">About Us</h4>
                         <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit
                             amet, consectetur. I am text block. Click edit button to change this text. Lorem
@@ -231,7 +280,9 @@
             </div>
         </div>
     </div>
+    <script src="js/jquery-3.6.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/mine.js"></script>
 </body>
 
 </html>

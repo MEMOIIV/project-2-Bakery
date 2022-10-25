@@ -4,26 +4,45 @@
 }
 body{
         line-height: 1.86em;
-        
-}
-
-.hr{
-    background-color: #060505;
 }
 .home{
     background-image: url(../images/drew-coffman-1872.jpg);
     background-size: 100% 100%;
     height: 100vh;
     color: rgb(255, 255, 255);
-    padding-bottom: 100px;
-
 }
-.home2{
-    text-align: center;
+.layer{
+    background-color: rgb(0, 0, 0,0.6);
+}
+.nav-par{
+    width: 90%;
 }
 .logo{
     overflow: hidden;
     margin-top: 0px;
+}   
+.home img{
+    padding-top: 15px ;
+    width: 160px;
+}
+.nav-item{
+    padding-left: 15px ;
+    font-size: 1.2rem;   
+}
+.nav-link{
+    cursor: pointer;
+    color: white;
+}
+.nav-link:hover{
+    color: #AE9768;
+    border-bottom: 2px solid #AE9768;
+}
+.nav-item .nav-link.active{
+    color: white;
+}
+.nav-item .nav-link.active:hover{
+    color: #AE9768;
+    border-bottom: 2px solid #AE9768;
 }
 .logo a{
     color: rgb(255, 255, 255);
@@ -35,30 +54,41 @@ body{
     font-weight: bold;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.home img{
-    padding-right: 700px;
-    padding-top: 20px;
-    width: 200px ;
-    padding-left: 60px;
+.home2{
+    text-align: center;
+    z-index: 900000;
 }
 .wel{
     font-size:23px ;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 200px 0px 15px;
 }
 .pra0{
     font-size: 23px;
     font-family:'Alegreya Sans';
-    margin: 10px 0px 20px;
-    padding: 10px 0px 0px ;
-
+    padding: 5px 0px 0px ;
 }
 h1{
     font-size: 70px;
     font-family: 'Alegreya Sans', sans-serif;
-    padding: 60px 0px 15px ;
+    padding: 5px 0px ;
 }
-
+.icon-body{
+    padding: 10px 5px 10px 10px ;
+    border: none;
+    border-top-left-radius: 2px ;
+    border-bottom-left-radius: 2px ;
+    background-color:white;
+    top: 90%;
+    font-size: 21px  ;
+    font: normal;
+}
+.icon-body i{
+    color: #666;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.icon-body i:hover{
+    color: #3693E6;
+}
 
 
 .butt{
@@ -66,18 +96,55 @@ h1{
     border: none;
     margin-top: 30px;
 }
-.butt1{
-    background-color: #422e31;
+.btn-danger1{
+    background-color: #AE9768;
+    border: 1px solid #AE9768;
+    color: white;
+    padding: 20px ;
 }
-
+.btn-danger1:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.btn-primary1{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    padding: 20px ;
+}
+.btn-primary1:hover{
+    background-color: #AE9768;
+    border: 1px solid #AE9768;
+    color: white;
+}
+.btn-1{
+    background-color: #AE9768;
+    border: 1px solid #AE9768;
+    color: white;
+    padding: 20px 40px  ;
+}
+.btn-1:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+.boxNav{
+    right: -254px;
+    
+}
+.coloringBox span{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 3px ;
+}   
 .whowe{
     background-color: #ffffff;
 }
-.pict1{
-  
-}
 .pict1 img{
-    width: 100%;
+    width: 90%;
     
 }
 .title1{
@@ -88,34 +155,30 @@ h1{
 }
 H2{
     text-align: left;
-    font-size: 32px;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 36px;
+    font-family: serif;
     padding-bottom: 30px;
-
+    color: #373030;
 }
-.p1{
-    text-align: left;
-    font-size: 17px;
-    padding-bottom: 5px;
-    
-}
-.p2{
-    padding-top: 15px;
-    text-align: left;
-    font-size: 17px;
-    padding-bottom: 5px;
+.color-p{
+    color: #686868;
 }
 .pra2{
     text-align: center;
     padding:0px 0px 0p 1000px  ;
-
-
 }
 .OurLocation{
     background-color: rgb(216, 214, 214);
     display: flex;
     justify-content: space-between;
-
+}
+.icon-who{
+    width: 40px ;
+    height: 40px ;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    color: #8E7754;
+    font-size: 20px ;
 }
 .title2{
     text-align: left;
@@ -264,7 +327,7 @@ width: 100%;
     padding-top: 80px;
 }
 
-.row{
+.row0{
     background-color: #3f3a33;
     width: 20%;
     display: inline-block;
